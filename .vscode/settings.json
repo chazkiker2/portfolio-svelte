@@ -1,0 +1,11 @@
+{
+	"god.tsconfig": "./tsconfig.json",
+	"compile-hero.disable-compile-files-on-did-save-code": true,
+	"cSpell.words": [
+		"ryderserial"
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"prettier.configPath": "../.prettirrc.js",
+	"editor.detectIndentation": true
+}
