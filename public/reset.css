@@ -1,0 +1,44 @@
+:root {
+	--base-gray: #333;
+	--p1: #080705;
+	--p2: #141414;
+	--p3: #1a1a1c;
+	--p4: #1f2023;
+	--p5: #363841;
+	--p6: #393c45;
+	--p7: #40434e;
+	--p8: #51545e;
+	--p9: #61646d;
+	--txt: #FFF;
+	--link: #3e92cc;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: var(--base-gray);
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+	color: var(--txt);
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
